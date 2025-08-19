@@ -89,14 +89,19 @@ public class Member {
         return new Member(birthdayDate, name, newEmail, description, baptism, audit, martialStatus, address, gender, number);
     }
 
-    public @NonNull String updateName(String newName) {
+    public void updateName(String newName) {
         this.name = newName;
-        return this.name;
     }
-/*
-    public @NonNull String updateEmail(String newEmail) {
 
+    public void updateEmail(String oldEmail, String newEmail) {
+        if (!this.email.value().equals(oldEmail)) {
+            throw new RuntimeException("Email antigo não confere");
+        }
+        this.email = Email.of(newEmail);
     }
-*/
+
+    public void updateAddress(String street, String city, String state, String zipCode, String country) {
+        this.address =  Address.of(street, city, state, zipCode, country);
+    }
 
 }
