@@ -1,8 +1,5 @@
-transacation/
-transactionCategories/
 
 
-V7__create-transaction-categories-table.sql
 V8__create-transactions-table.sql
 
 HELP.md
