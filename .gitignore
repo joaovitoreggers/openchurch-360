@@ -1,10 +1,7 @@
-commom/
-paymentMethods/
 transacation/
 transactionCategories/
 
 
-V6__create-payment-methods-table.sql
 V7__create-transaction-categories-table.sql
 V8__create-transactions-table.sql
 
