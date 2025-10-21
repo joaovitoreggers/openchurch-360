@@ -1,12 +1,10 @@
 commom/
-department/
 paymentMethods/
 transacation/
 transactionCategories/
 worker/
 
 
-V3__create-department-table.sql
 V4__create-department-member-table.sql
 V5__create-worker-table.sql
 V6__create-payment-methods-table.sql
