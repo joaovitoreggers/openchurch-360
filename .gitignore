@@ -5,7 +5,6 @@ transactionCategories/
 worker/
 
 
-V4__create-department-member-table.sql
 V5__create-worker-table.sql
 V6__create-payment-methods-table.sql
 V7__create-transaction-categories-table.sql
